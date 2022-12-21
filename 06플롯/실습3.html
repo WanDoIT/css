@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .box {
+            width: 1026px;
+            margin: 0 auto;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .box .inner {
+            float: left;
+            border: 1px solid black;
+            margin-left: 8px;
+            box-sizing: border-box;
+            height: 310px;
+        }
+        .box .inner .picwrap{
+            width: 480px;
+            box-sizing: border-box;
+        }
+
+        .box .inner .pic {
+            width: 33.3333%;
+            height: 155px;
+            float: left;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        .box .inner .img {
+            width: 236px;
+            height: 310px;
+            box-sizing: border-box;
+        }
+        .box .inner .login{
+            border-bottom: 1px solid black;
+            width: 280px;
+            height: 50%;
+            box-sizing: border-box;
+            padding: 8px;
+        }
+        .btn-wrap {
+            background-color: #19ce60;
+            width: 250px;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 50px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 0px 8px 0px;
+            
+        }
+        .login p{
+            float: left;
+            font-size: 11px;
+            margin: 40px 0px 10px 7px;
+            color: gray;
+        }
+        .login a{
+            color: gray;
+            float: right;
+            font-size: 11px;
+            margin: 40px 7px 10px 0px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="inner">
+            <div class="picwrap">
+                <div class="pic">사진(너비33.3333%)</div>
+                <div class="pic">사진(너비33.3333%)</div>
+                <div class="pic">사진(너비33.3333%)</div>
+                <div class="pic">사진(너비33.3333%)</div>
+                <div class="pic">사진(너비33.3333%)</div>
+                <div class="pic">사진(너비33.3333%)</div>
+            </div>
+        </div>
+
+        <div class="inner">
+            <div class="img">이미지영역</div>
+        </div>
+
+        <div class="inner">
+            <div class="login">
+               너비 280px 왼쪽마진 8px 
+               <p>멜론을 더 안전하게 이용하세요</p>
+               <a href="">회원가입</a>
+                <button type="button" class="btn-wrap">로그인</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

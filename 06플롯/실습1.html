@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .box {
+            border: 1px solid black;
+
+            width: 600px;
+
+            margin: 0 auto;
+
+            overflow: hidden;
+
+        }
+
+        .box .inner {
+            float: left;
+            width: 50.0000%;
+            box-sizing: border-box;
+
+        }
+
+        .box2 {
+            border: 1px solid black;
+            padding-bottom: 50px;
+            box-sizing: border-box;
+        }
+
+        .box3 {
+            border: 1px solid black;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .box3 .right {
+            float: right;
+
+            box-sizing: border-box;
+        }
+
+        button {
+            float: left;
+            width: 50.0000%;
+            display: block;
+            box-sizing: border-box;
+        }
+        .wrap{
+            border: 1px solid black;
+        }
+        .box .inner p{
+            margin: 0px;
+        }
+        .content{overflow: hidden;}
+        .content .left{float: left;}
+        .content .right{float: right;}
+        .content button{
+            width: 50%;
+        }
+        .control{margin-top: 50px;border: 1px solid #777;}
+    </style>
+</head>
+
+<body>
+    <h3>과제1</h3>
+
+    <div class="box">
+        <div class="inner">
+            사진
+        </div>
+        <div class="inner">
+            <div class="box2">제목 : 패딩바텀 50px;<br>내용:~~~</div>
+
+            <div class="box3">
+
+                <div class="inner">가격</div>
+                <div class="right">10000원</div>
+
+                <button>장바구니</button>
+                <button>구매하기</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div>------------------------------------------------위:내가한거/아래:선생님</div>
+    <div class="box">
+        <div class="inner">
+            사진
+        </div>
+        <div class="inner wrap">
+            <div>
+                <p>제목</p>
+                <p>내용</p>
+            </div>
+
+            <div class="control">
+                <div class="content">
+                    <span class="left">가격</span>
+                    <span class="right">10000원</span>
+                </div>
+                
+                <div class="content">
+                <button class="left">장바구니</button>
+                <button class="right">구매하기</button>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
