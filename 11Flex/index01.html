@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {background-color: yellow; padding: 10px; }
+        .box .items {background-color: green; width: 50px; height: 50px;}
+        .container {
+            /* flex 기본 item의 너비 만큼 가로 배치 */
+            /* flex: flex - 블럭배치, inline-flex - 인라인 배치 */
+            display: flex;
+            /* 주축 설정 row 기본값 */
+            /* 세로 column */
+            flex-direction: row;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h3>유연한 박스 flex</h3>
+
+    <div class ="container box">
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+    </div>
+
+    <!-- <div class ="container box">
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+    </div> -->
+
+    <style>
+        .box {background-color: yellow; padding: 10px;}
+        .box .items {background-color: green; width: 50px; height: 50px; margin: 10px;}
+   
+        .container2 {
+            display: flex;
+            flex-flow:row wrap;
+            /* flex-direction: row;
+            flex-wrap: wrap;  */
+            /*더이상 공간이 없을 때 줄바꿈, 기본값 nowrap*/
+
+        }
+    </style>
+
+     
+    <h3>flex-wrap(줄바꿈)</h3>
+
+    <div class ="container2 box">
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+        <div class ="items">hello</div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+        .wrap{
+            border: 1px solid black;
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+            padding: 10px;
+        }
+
+        .wrap .inner{
+            width: 20%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .wrap .text{
+            width: 380px;
+            padding-left: 50px;
+            overflow: hidden;
+        }
+        .wrap .text textarea{
+            width: 100%;
+            height: 150px;
+            resize: none;
+        }
+        .left{
+            width: 50%;
+            float: left;
+            
+        }
+        .right{
+         
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap"> <!--마진0 오토-->
+        <div class="inner"><!--포지션-->
+            <img src="img/test1.png" alt="" width="50px">
+        </div>
+        
+        <div class="text"><!--패딩left-->
+            <textarea ></textarea>
+            <div class="left"><!--float:left-->
+                <input type="text">
+                <input type="text">
+            </div>
+            <button type="button" class="right">등록하기</button><!--float:right-->
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="inner">
+            <img src="img/test1.png" alt="" width="50px">
+        </div>
+
+        <div class="text">
+            <div class="left">
+               <p style="margin: 0;"><strong>제목</strong></p>  
+              <p style="margin: 0;"><small>내용</small></p> 
+            </div>
+            
+            <div class="right">
+                <button>삭제</button>
+                <button>수정</button>
+                
+            </div>
+        </div>
+
+    </div>
+
+  
+</body>
+</html>

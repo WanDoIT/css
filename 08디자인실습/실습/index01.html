@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("../img/bg.png");
+        }
+
+        .header {
+
+            margin: 0 auto;
+        }
+
+        .header .logo {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .header .menu {
+            background-color: black;
+            text-align: center;
+
+        }
+
+        .header .menu ul {}
+
+        .header .menu ul li {
+            padding: 20px;
+            display: inline-block;
+
+        }
+
+        .header .menu ul li a {
+            color: white;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .section {
+            background-color: white;
+            text-align: center;
+        }
+
+        .section .imgwrap {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .section .imgwrap li {
+            width: 25%;
+            float: left;
+            display: inline;
+            margin: 40px 0px;
+
+        }
+
+        .section .imgwrap li p {
+            display: inline;
+        }
+
+        .contents {
+            text-align: center;
+            
+        }
+
+        .center {
+            display: inline-block;
+           position: relative;
+            
+        }
+
+
+        .leftlogo {
+
+            position: absolute;
+            top: 0;
+            left: 720px;
+        }
+
+        .rightlogo {
+
+            position: absolute;
+            top: 0;
+            left: -220px;
+        }
+        .fixed{
+            background-color: firebrick;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../img/logo.jpg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">메뉴1</a></li>
+                <li><a href="">메뉴1</a></li>
+                <li><a href="">메뉴1</a></li>
+                <li><a href="">메뉴1</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <section class="section">
+        <ul class="imgwrap">
+            <li><img src="../img/item01.png" alt=""><br>아이폰</li>
+            <li><img src="../img/item02.png" alt=""><br>아이폰</li>
+            <li><img src="../img/item03.png" alt=""><br>아이패드</li>
+            <li><img src="../img/item04.png" alt=""><br>아이맥</li>
+        </ul>
+    </section>
+
+    <section class="contents">
+        <div class="center">
+            <img src="../img/ipad.jpg" alt="">
+            <div class="leftlogo">
+                <img src="../img/side01.png" alt=""><br><br>
+                <img src="../img/side02.png" alt="">
+            </div>
+    
+            <div class="rightlogo">
+                <img src="../img/side03.png" alt=""><br><br>
+                <img src="../img/side04.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="fixed"><a href="#">TOP</a></div>
+</body>
+
+</html>

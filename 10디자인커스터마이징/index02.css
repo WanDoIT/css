@@ -1,0 +1,88 @@
+* {margin: 0; padding: 0;list-style: none; box-sizing: border-box;}
+
+.title{
+    font-size: 24px;
+    font-weight:  500;
+    border-bottom: 1px solid #ddd;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+}
+.info{
+    color: #999;
+}
+
+.totalpay{padding-top: 110px; overflow: hidden;}
+.totalpay .left{font-size: 16px; float: left;}
+.totalpay .right{
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn{
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+.btn .jang{
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 50%;
+    height: 65px;
+    float: left;
+    font-size: 18px;
+}
+.btn .gu{
+    border: 1px solid #ddd;
+    background-color: #337ab7;
+    font-size: 18px;
+    color: white;
+    width: 50%;
+    height: 65px;
+    float: right;
+}
+
+.com_wrap{
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.com_wrap .comment{
+    padding: 0 0 0 60px;
+    overflow: hidden;
+    min-height: 60px;
+}
+
+.com_wrap .comment textarea{
+    padding: 5px 10px;
+    width: 100%;
+    height: 80px;
+    resize: vertical;
+}
+
+.comment .left{
+    width: 50%;
+    float: left;
+}
+
+.comment .right{
+    float: right;
+}
+.comment .right input{
+    width: 80px;
+    height: 35px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+.form{
+    display: block;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+}
